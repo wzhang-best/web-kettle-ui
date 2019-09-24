@@ -1,0 +1,122 @@
+[
+  {
+    "name": "CSV文件输入",
+    "pluginId": "csv-input",
+    "image": "csv-input.png"
+  },
+  {
+    "name": "XLS/XLSX文件输入",
+    "pluginId": "excel-input",
+    "image": "excel-input.png"
+  },
+  {
+    "name": "JSON文件输入",
+    "pluginId": "json-input",
+    "image": "json-input.png"
+  },
+  {
+    "name": "XML输入",
+    "pluginId": "xml-input",
+    "image": "xml-input.png"
+  },
+  {
+    "name": "表输入",
+    "pluginId": "table-input",
+    "image": "table-input.png"
+  },
+  {
+    "name": "CSV文件输出",
+    "pluginId": "csv-output",
+    "image": "csv-output.png"
+  },
+  {
+    "name": "XLS/XLSX文件输出",
+    "pluginId": "excel-output",
+    "image": "excel-output.png"
+  },
+  {
+    "name": "JSON文件输出",
+    "pluginId": "json-output",
+    "image": "json-output.png"
+  },
+  {
+    "name": "XML文件输出",
+    "pluginId": "xml-output",
+    "image": "xml-output.png"
+  },
+  {
+    "name": "删除",
+    "pluginId": "delete",
+    "image": "delete.png"
+  },
+  {
+    "name": "插入/更新",
+    "pluginId": "insert-update",
+    "image": "insert-update.png"
+  },
+  {
+    "name": "表输出",
+    "pluginId": "table-output",
+    "image": "table-output.png"
+  },
+  {
+    "name": "值映射",
+    "pluginId": "value-mapper",
+    "image": "value-mapper.png"
+  },
+  {
+    "name": "去除重复记录",
+    "pluginId": "unique-rows",
+    "image": "unique-rows.png"
+  },
+  {
+    "name": "增加常量",
+    "pluginId": "constant",
+    "image": "constant.png"
+  },
+  {
+    "name": "增加序列",
+    "pluginId": "add-sequence",
+    "image": "add-sequence.png"
+  },
+  {
+    "name": "增加校验列",
+    "pluginId": "check-sum",
+    "image": "check-sum.png"
+  },
+  {
+    "name": "字段选择",
+    "pluginId": "select-values",
+    "image": "select-values.png"
+  },
+  {
+    "name": "字符串操作",
+    "pluginId": "string-operations",
+    "image": "string-operations.png"
+  },
+  {
+    "name": "字符串替换",
+    "pluginId": "replace-string",
+    "image": "replace-string.png"
+  },
+  {
+    "name": "拆分字段",
+    "pluginId": "field-splitter",
+    "image": "field-splitter.png"
+  },
+  {
+    "name": "计算器",
+    "pluginId": "calculator",
+    "image": "calculator.png"
+  },
+  {
+    "name": "空操作",
+    "pluginId": "dummy",
+    "image": "dummy.png"
+  },
+  {
+    "name": "过滤记录",
+    "pluginId": "filter-rows",
+    "image": "filter-rows.png"
+  }
+]

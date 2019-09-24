@@ -1,0 +1,46 @@
+{
+  "index": true,
+  "columns": [
+    {
+      "type": "normal",
+      "visible": false,
+      "prop": "id",
+      "label": "ID"
+    },
+    {
+      "type": "normal",
+      "prop": "name",
+      "label": "名称"
+    },
+    {
+      "type": "normal",
+      "prop": "filename",
+      "label": "文件名"
+    },
+    {
+      "type": "normal",
+      "prop": "comment",
+      "label": "注释"
+    },
+    {
+      "type": "normal",
+      "prop": "result",
+      "label": "结果"
+    },
+    {
+      "type": "normal",
+      "prop": "reason",
+      "label": "原因"
+    },
+    {
+      "type": "normal",
+      "prop": "nr",
+      "label": "数量"
+    },
+    {
+      "type": "normal",
+      "prop": "logDate",
+      "label": "日志日期"
+    }
+  ]
+}

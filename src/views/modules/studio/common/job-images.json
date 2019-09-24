@@ -1,0 +1,27 @@
+[
+  {
+    "name": "START",
+    "pluginId": "start",
+    "image": "start.png"
+  },
+  {
+    "name": "DUMMY",
+    "pluginId": "dummy",
+    "image": "dummy.png"
+  },
+  {
+    "name": "JOB",
+    "pluginId": "job",
+    "image": "job.png"
+  },
+  {
+    "name": "SUCCESS",
+    "pluginId": "success",
+    "image": "success.png"
+  },
+  {
+    "name": "TRANS",
+    "pluginId": "trans",
+    "image": "trans.png"
+  }
+]

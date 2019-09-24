@@ -1,0 +1,234 @@
+{
+  "trans": {
+    "pluginMenu": [
+      {
+        "name": "编辑步骤",
+        "method": "editStep",
+        "display": true
+      },
+      {
+        "name": "编辑步骤描述",
+        "method": "editPluginDiscription",
+        "separator": true,
+        "display": true
+      },
+      {
+        "name": "数据发送",
+        "display": true,
+        "children": [
+          {
+            "name": "轮流发送模式",
+            "method": "turnDeliverModel",
+            "icon": null,
+            "enabled": true,
+            "display": true
+          },
+          {
+            "name": "复制发送模式",
+            "method": "copyDeliverModel",
+            "icon": null,
+            "enabled": true,
+            "display": true
+          }
+        ]
+      },
+      {
+        "name": "改变开始复制的数据",
+        "separator": true,
+        "display": true
+      },
+      {
+        "name": "删除步骤",
+        "separator": true,
+        "method": "deleteStep",
+        "display": true
+      },
+      {
+        "name": "显示输入字段",
+        "method": "showInputFields",
+        "display": true
+      },
+      {
+        "name": "显示输出字段",
+        "separator": true,
+        "method": "showOutputFields",
+        "display": true
+      },
+      {
+        "name": "定义错误处理",
+        "separator": true,
+        "display": true
+      },
+      {
+        "name": "预览",
+        "display": true
+      }
+    ],
+    "canvasMenu": [
+      {
+        "name": "新建注释",
+        "method": "createNotepad",
+        "display": true
+      },
+      {
+        "name": "全选",
+        "method": "selectAll",
+        "display": true
+      },
+      {
+        "name": "清除选择",
+        "separator": true,
+        "method": "clearSelect",
+        "display": true
+      },
+      {
+        "name": "转换设置",
+        "separator": true
+      },
+      {
+        "name": "查看图形文件",
+        "method": "previewXML",
+        "display": true
+      },
+      {
+        "name": "查看引擎文件",
+        "method": "previewTransKettleXML",
+        "display": true
+      }
+    ],
+    "lineMenu": [
+      {
+        "name": "使节点连接失效",
+        "method": "lineInvalidHandler",
+        "separator": true,
+        "display": true
+      },
+      {
+        "name": "使节点连接生效",
+        "method": "lineValidHandler",
+        "separator": true,
+        "display": true
+      },
+      {
+        "name": "删除节点连接",
+        "method": "deleteEdge",
+        "display": true
+      }
+    ]
+  },
+  "job": {
+    "pluginMenu": [
+      {
+        "name": "编辑作业",
+        "method": "editStep",
+        "display": true
+      },
+      {
+        "name": "编辑作业入口描述信息",
+        "method": "editPluginDiscription",
+        "separator": true,
+        "display": true
+      },
+      {
+        "name": "删除作业",
+        "method": "deleteStep",
+        "display": true
+      },
+      {
+        "name": "打开",
+        "method": "oepnFlow",
+        "display": false
+      }
+    ],
+    "canvasMenu": [
+      {
+        "name": "新建注释",
+        "method": "createNotepad",
+        "display": true
+      },
+      {
+        "name": "全选",
+        "method": "selectAll",
+        "display": true
+      },
+      {
+        "name": "清除选择",
+        "separator": true,
+        "method": "clearSelect",
+        "display": true
+      },
+      {
+        "name": "作业设置",
+        "separator": true,
+        "display": true
+      },
+      {
+        "name": "查看图形文件",
+        "method": "previewXML",
+        "display": true
+      },
+      {
+        "name": "查看引擎文件",
+        "method": "previewJobKettleXML",
+        "display": true
+      }
+    ],
+    "lineMenu": [
+      {
+        "name": "评价",
+        "children": [
+          {
+            "name": "无条件的",
+            "method": "rateNoCondition",
+            "icon": null,
+            "enabled": true,
+            "display": true
+          },
+          {
+            "name": "当结果为真的时候继续下一步",
+            "method": "rateTrueCondition",
+            "icon": null,
+            "enabled": true,
+            "display": true
+          },
+          {
+            "name": "当结果为假的时候继续下一步",
+            "method": "rateFalseCondition",
+            "icon": null,
+            "enabled": true,
+            "display": true
+          }
+        ]
+      },
+      {
+        "name": "使节点连接失效",
+        "method": "lineInvalidHandler",
+        "separator": true,
+        "display": true
+      },
+      {
+        "name": "使节点连接生效",
+        "method": "lineValidHandler",
+        "separator": true,
+        "display": true
+      },
+      {
+        "name": "删除节点连接",
+        "method": "deleteEdge",
+        "display": true
+      }
+    ]
+  },
+  "notepad": [
+    {
+      "name": "编辑注释",
+      "method": "editNotepad",
+      "display": true
+    },
+    {
+      "name": "删除注释",
+      "method": "deleteNotepad",
+      "display": true
+    }
+  ]
+}

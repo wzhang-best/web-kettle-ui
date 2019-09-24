@@ -1,0 +1,70 @@
+{
+  "index": true,
+  "columns": [
+    {
+      "type": "normal",
+      "prop": "name",
+      "label": "步骤名称"
+    },
+    {
+      "type": "normal",
+      "prop": "copyNr",
+      "label": "复制记录数"
+    },
+    {
+      "type": "normal",
+      "prop": "readNr",
+      "label": "读"
+    },
+    {
+      "type": "normal",
+      "prop": "writeNr",
+      "label": "写"
+    },
+    {
+      "type": "normal",
+      "prop": "inputNr",
+      "label": "输入"
+    },
+    {
+      "type": "normal",
+      "prop": "outputNr",
+      "label": "输出"
+    },
+    {
+      "type": "normal",
+      "prop": "updateNr",
+      "label": "更新"
+    },
+    {
+      "type": "normal",
+      "prop": "rejectNr",
+      "label": "拒绝"
+    },
+    {
+      "type": "normal",
+      "prop": "errorNr",
+      "label": "错误"
+    },
+    {
+      "type": "normal",
+      "prop": "status",
+      "label": "激活"
+    },
+    {
+      "type": "normal",
+      "prop": "elapsedTime",
+      "label": "时间"
+    },
+    {
+      "type": "normal",
+      "prop": "speed",
+      "label": "速度(条/秒)"
+    },
+    {
+      "type": "normal",
+      "prop": "pri",
+      "label": "Pri/in/out"
+    }
+  ]
+}
